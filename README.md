@@ -51,42 +51,14 @@ A lightweight **Flask backend** enables fast inference, natural conversation flo
 
 ---
 
+## RAG Pipelines Screenshot
+<img width="844" height="642" alt="image" src="https://github.com/user-attachments/assets/3d9959bf-bfa4-4733-8365-79394a91907d" />
 
-## 🚀 How to Run
-
-Follow the steps below to set up and run the HealthCompanion ChatBot on your local machine.
-
----
-
-### 📥 STEPS —
-
-```bash
-git clone https://github.com/aankith94/HealthCompanion-ChatBot.git
-cd HealthCompanion-ChatBot
-
-# Create and activate conda environment
-conda create -n medibot python=3.10 -y
-conda activate medibot
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Add environment variables in .env file
-PINECONE_API_KEY="your_pinecone_api_key"
-OPENAI_API_KEY="your_openai_api_key"
-
-# Store vectors in Pinecone
-python store_index.py
-
-# Run the application
-python app.py
-
----
-
-
-
-
-
+## Projects Scrrenshots
+<img width="1101" height="727" alt="image" src="https://github.com/user-attachments/assets/273ee5e7-910f-401f-a6d6-07ce8603f55d" />
+<img width="1061" height="691" alt="image" src="https://github.com/user-attachments/assets/78fba5b6-f200-4d21-993c-0e1cfea45572" />
+<img width="1045" height="709" alt="image" src="https://github.com/user-attachments/assets/8c8e91d1-e6b8-4a5f-9af5-ead6784c5dfa" />
+<img width="1046" height="683" alt="image" src="https://github.com/user-attachments/assets/b69b2c0a-882b-4755-aeaa-72826314480e" />
 
 
 
