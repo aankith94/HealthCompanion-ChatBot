@@ -58,11 +58,23 @@ Follow the steps below to set up and run the HealthCompanion ChatBot on your loc
 
 ---
 
-### **📥 STEP 01 — Clone the Repository**
+### **📥 STEPS —
 
 ```bash
 git clone https://github.com/aankith94/HealthCompanion-ChatBot.git
 cd HealthCompanion-ChatBot
+
+conda create -n medibot python=3.10 -y
+conda activate medibot
+
+pip install -r requirements.txt
+
+PINECONE_API_KEY="your_pinecone_api_key"
+OPENAI_API_KEY="your_openai_api_key"
+
+python store_index.py
+
+python app.py
 
 
 
